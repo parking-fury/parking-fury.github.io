@@ -18,7 +18,7 @@
       <meta property="og:site_name" content="parking-fury.github.io" />
       <meta property="og:description" content="Park with precision in Parking Fury, a thrilling Chromebook game. Maneuver various vehicles through challenging levels, showcasing your driving skills" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="images/icon_game.png">
+     
 
 
 
@@ -46,56 +46,7 @@
  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2761564299182892"
      crossorigin="anonymous"></script>
 
-
-
-
-<script>
-  window.aiptag = window.aiptag || {cmd: []};
-  aiptag.cmd.display = aiptag.cmd.display || [];
-  aiptag.cmd.player = aiptag.cmd.player || [];
-  //CMP tool settings
-  aiptag.cmp = {
-    show: true,
-    position: "centered",  //centered, bottom
-    button: true,
-    buttonText: "Privacy settings",
-    buttonPosition: "bottom-left" //bottom-left, bottom-right, bottom-center, top-left, top-right
-  }
-  aiptag.cmd.player.push(function() {
-    aiptag.adplayer = new aipPlayer({
-      AD_WIDTH: 960,
-      AD_HEIGHT: 540,
-      AD_DISPLAY: 'default', //default, fullscreen, fill, center, modal-center
-      LOADING_TEXT: 'loading advertisement',
-      PREROLL_ELEM: function(){return document.getElementById('videoad')},
-      AIP_COMPLETE: function (state)  {
-        /*******************
-         ***** WARNING *****
-         *******************
-         Please do not remove the PREROLL_ELEM
-         from the page, it will be hidden automaticly.
-        */
-        
-        alert("Video Ad Completed: " + state);
-      }
-    });
-
-      });
-
-    function show_videoad() {
-    //check if the adslib is loaded correctly or blocked by adblockers etc.
-    if (typeof aiptag.adplayer !== 'undefined') {
-      aiptag.cmd.player.push(function() { aiptag.adplayer.startVideoAd(); });
-    } else {
-      //Adlib didnt load this could be due to an adblocker, timeout etc.
-      //Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
-      alert("Ad Could not be loaded, load your content here");
-      aiptag.adplayer.aipConfig.AIP_COMPLETE();
-    }
-  }
-    </script>
-
-    <script async src="//api.adinplay.com/libs/aiptag/pub/PFG/parking-fury.github.io/tag.min.js"></script> 
+   
 
     <script type="text/javascript" async>!function(e,t){a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,m.parentNode.insertBefore(a,m)}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);
     </script>
